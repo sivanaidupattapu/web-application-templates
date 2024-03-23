@@ -1,0 +1,132 @@
+.header{
+    height: 30px;
+    padding: 20px;
+    background-color: rgb(9, 9, 20);
+    position: sticky;
+    top:0px;
+}
+#dh1{
+    display: inline-block;
+    width: 50%;
+    margin: -2px;
+}
+#logo{
+    width: 100px;
+    height: 30px;
+    margin-left: 50px;
+    vertical-align: middle;
+}
+#dh2{
+    display: inline-block;
+    width: 50%;
+    margin: -2px;
+    text-align: right;
+}
+#btn{
+    color: white;
+    background-color: rgb(10, 10, 23);
+    vertical-align: middle;
+}
+.header2{
+    height: 10px;
+    padding: 20px;
+    background-color: rgb(34, 34, 43);  
+}
+#n1{
+    display: inline-block;
+    width: 50%;
+    margin: -2px;
+    vertical-align: top;
+}
+#n1 li:hover{
+    color:rgb(43, 99, 49);
+   
+}
+#n2{
+    display: inline-block;
+    width: 50%;
+    margin: -2px;
+    text-align: end;
+    vertical-align: top;
+}
+#n1 li{
+    display: inline;
+    margin: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.banner{
+    height: 450px;
+    background-color: rgb(18, 162, 235);
+}
+#b1{
+    display: inline-block;
+    width: 50%;
+    height: 400px;
+    margin: -2px;
+    text-align: left;
+    font-size: small;
+    padding: 100px;
+    vertical-align: middle;
+    padding: 100px 70px;
+    box-sizing: border-box;
+}
+#btn1{
+    background: rgb(5, 5, 12);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+#b2{
+    display: inline-block;
+    width: 50%;
+    height: 400px;
+    margin: -2px;
+    vertical-align: middle;
+    padding: 100px 70px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.course{
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+}
+.c1{
+    padding: 10px;
+    text-align: center;
+}
+.c1 p{
+    text-align: left;
+}
+.c1 h3{
+    color:rgb(18, 162, 235);
+}
+#p{
+    text-align: center;
+}
+#img1{
+    height:200px;
+    aspect-ratio: 3/2;
+}
+#img2{
+    width: 300px;
+    aspect-ratio: 3/2;
+}
+#img3{
+    width: 300px;
+    aspect-ratio: 3/2;
+}
+
+.c1 button{
+    background-color: aliceblue;
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
+
+}
+button:hover{
+    color:white;
+    background-color: black;
+}

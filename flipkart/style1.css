@@ -1,0 +1,238 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+.one{
+    /* width: 20%; */
+}
+.two{
+    /* width: 40%; */
+    position: relative;
+}
+.three{
+    /* width: 10%; */
+    position: relative;
+}
+.four{
+    /* width: 10%; */
+}
+.five{
+    /* width: 15%; */
+}
+.six{
+    /* width: 5%; */
+}
+
+.navbar i{
+    font-size: 22px;
+}
+.one img{
+    width: 150px;
+    height: 40px;
+}
+
+#serc{
+    width: 450px;
+    height: 35px;
+    padding: 10px 40px;
+    background-color: rgb(237, 246, 253);
+    border: 0px;
+    border-radius: 5px;
+}
+#btn1{
+    background-color: white ;
+    padding: 10px 30px;
+    border: 0px;
+    border-radius: 5px;
+}
+#three{
+    position: absolute;
+    top: 5px;
+    left: 0px;
+}
+#two1{
+    position: absolute;
+    left: 10px;
+    top: 8px;
+}
+#btn1:hover{
+    background-color: rgb(88, 88, 197);
+    color: white;
+}
+
+
+.features{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    border-top: 7px solid rgb(240, 240, 240);
+    border-bottom: 7px solid rgb(240, 240, 240);
+    border-left: 10px solid rgb(240, 240, 240);
+    border-right: 10px solid rgb(240, 240, 240);
+}
+.img2{
+    width: 60px;
+    height: 60px;
+}
+.feature span{
+    font-size: 14px;
+    color: rgb(10, 10, 19);
+}
+
+.banner{
+    background-image: url("https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/22748e3c06f2c3ae.png?q=20");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    border-top: 7px solid rgb(240, 240, 240);
+    border-bottom: 7px solid rgb(240, 240, 240);
+    border-left: 10px solid rgb(240, 240, 240);
+    border-right: 10px solid rgb(240, 240, 240);
+}
+
+.banner2{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    flex-wrap: wrap;
+    border-top: 7px solid rgb(240, 240, 240);
+    border-bottom: 7px solid rgb(240, 240, 240);
+    border-left: 10px solid rgb(240, 240, 240);
+    border-right: 10px solid rgb(240, 240, 240);
+}
+
+.b21{
+    width: 25%;
+}
+
+
+.img3{
+    width: 100%;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    border-left: 10px solid rgb(240, 240, 240);
+    border-right: 10px solid rgb(240, 240, 240);
+}
+.content h3{
+    color: rgb(28, 28, 34);
+    font-weight: small;
+}
+.content i{
+    font-size: 25px;
+    color: blue;
+}
+.products{
+    height: 280px;
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 5px;
+    /* border-top: 7px solid rgb(240, 240, 240); */
+    border-bottom: 7px solid rgb(240, 240, 240);
+    border-left: 10px solid rgb(240, 240, 240);
+    border-right: 10px solid rgb(240, 240, 240);
+}
+
+#pimg{
+    height: 200px;
+    width: 150px;
+    padding: 8px 15px;
+    
+}
+
+.p1{
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
+.p1,span,h5{
+    margin: 2px;
+    text-align: center;
+}
+.trending{
+    height: 890px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-top: 7px solid rgb(240, 240, 240);
+    border-bottom: 7px solid rgb(240, 240, 240);
+    border-left: 10px solid rgb(240, 240, 240);
+    border-right: 10px solid rgb(240, 240, 240);
+}
+.imgt{
+    width: 396px;
+    border-left: 2px solid white;
+    border-right: 1px solid white;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    border-left: 10px solid rgb(240, 240, 240);
+    border-right: 10px solid rgb(240, 240, 240);
+}
+
+.footer h3{
+    color: rgb(28, 28, 34);
+    font-weight: small;
+}
+.footer i{
+    font-size: 25px;
+    color: blue;
+}
+
+.footer2{
+    height: 280px;
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 5px;
+    border-bottom: 7px solid rgb(240, 240, 240);
+    border-left: 10px solid rgb(240, 240, 240);
+    border-right: 10px solid rgb(240, 240, 240);
+}
+
+.fashionprod{
+    width: 150px;
+    height: 200px;
+    padding: 8px 15px;
+}
+.f1{
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
+.f1,span,h5{
+    margin: 2px;
+    text-align: center;
+}
+.f1 h5{
+    color: green;
+}
