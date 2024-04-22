@@ -1,0 +1,63 @@
+body{
+    overflow-x: hidden;
+}
+#nav{
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+#dd2{
+    color:rgb(255, 217, 0);
+    font-family: 'Times New Roman', Times, serif;
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-size: 14px;
+}
+#d1{
+    margin-left: 25%;
+    margin-right: 25%;
+
+}
+#d1>h6:hover{
+    color:purple;
+}
+#d2>ul>li>a:hover{
+    color:orangered;
+}
+
+#d1>h6{
+    margin-left: 50px;
+    padding: 5px;
+}
+
+#d2{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#carouselExampleFade{
+    z-index: 0;
+}
+#footer{
+    padding: 20px;
+    background-color: black;
+    color:white
+    
+}
+#f1{
+    margin-bottom: 40px;
+}
+    
+#f1>div>li{
+    list-style: none;
+    font-size: 13px;
+}
+#d11>div:hover{
+color:green;
+}
+#f1>div>li:hover{
+    color:goldenrod;
+}
